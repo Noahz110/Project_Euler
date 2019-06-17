@@ -12,3 +12,4 @@ for y in range(3, t):
     if isprime(y) == True:
         li.append(y)
 print(sum(li))
+# 5s
