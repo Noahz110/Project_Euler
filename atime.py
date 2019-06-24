@@ -1,7 +1,7 @@
 import time
-start = time. time()
+start = time.time()
 
 #code here
 
-end = time. time()
+end = time.time()
 print('times = {} s'.format(end - start))
