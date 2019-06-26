@@ -1,6 +1,8 @@
-'''số cách đến 1 điểm sẽ bằng tổng số cách đến của 2 điểm trước nó
-số cách đến tại các điểm biên sẽ chỉ = 1.đặt ma trận điểm điến là S.
-như vậy S[0][i]= S[j][0] = 1 và S[i][j] = S[i-1][j]+S[i][j-1]'''
+    '''My algorithm: Số cách đến 1 điểm sẽ bằng tổng số cách đến của 2 điểm
+    trước nó. Số cách đến tại các điểm biên trái và trên sẽ chỉ = 1.
+    Đặt ma trận điểm điến là S.
+    như vậy S[0][i]= S[j][0] = 1 và S[i][j] = S[i-1][j]+S[i][j-1]
+    Tính ma trận S. chọn điểm cuối là điểm cần tìm'''
 n  = int(input("nhap size: "))
 r = [1]* (n+1)
 M=[]
