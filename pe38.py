@@ -24,8 +24,10 @@ for num in range_num:
         partitions += str(num * i)
         i += 1
     if is_pandigital(partitions):
+        print(partitions)
         if max_pandi < int(partitions):
             max_pandi = int(partitions)
+
 
 print(max_pandi)
 
