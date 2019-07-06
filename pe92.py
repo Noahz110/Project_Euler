@@ -1,6 +1,6 @@
 '''9**2 *7 = 567
 xet cac so <568 chia ra 2 list
-runtime 42s not bad xD'''
+runtime 42s not bad still < 60s xD'''
 import time
 start = time.time()
 
