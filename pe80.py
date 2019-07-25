@@ -1,6 +1,7 @@
 '''it need long lines explain so i will point u a link 
 how to caculate sqrt(n) in i digits here:
 https://math.stackexchange.com/questions/916190/calculate-more-digits-of-square-root-of-2/916263#916263'''
+# or can show sqrt(2) with decimal package https://docs.python.org/3/library/decimal.html
 import time
 start = time.time()
 import math
