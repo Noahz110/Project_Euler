@@ -1,5 +1,5 @@
-import math
 def is_prime(n):
+    import math
     if n == 2:
         return True
     elif n < 2:
